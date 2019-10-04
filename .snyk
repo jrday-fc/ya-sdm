@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - '@atomist/sdm-core > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/automation-client > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-pack-issue > @octokit/rest > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
+    - '@atomist/sdm-core > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2019-10-04T02:18:24.208Z'
